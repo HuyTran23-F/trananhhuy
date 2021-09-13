@@ -1,0 +1,653 @@
+@media all and (max-width: 1200px) {
+    .main-content {
+    // Category product
+        .category-product-inner {
+            .product-info {
+                box-shadow: 0px 0px 0px #FFF;
+                align-items: center;
+                justify-content: center;
+                // .info-fitness {
+                //     // no content
+                // }
+                .info-fitness:last-child {
+                    display: flex;
+                }
+            }
+        }
+    // End category product
+
+    // Product
+        .product {
+            .tabs {
+                ul {
+                    // no content
+                }
+
+                .product-inner {
+                    .info-product {
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                       .product-item {
+                            .col-1200(33.333%);
+                            width: 280px;
+                       } 
+                    }
+                }
+            }
+        }
+    // End Product
+
+    // Branching
+        .branch {
+            .logo-branching {
+                flex-wrap: wrap;
+                div {
+                    padding-left: 18px;
+                    padding-right: 18px;
+               }
+            }
+        }
+// End Branching    
+    }
+
+// Footer 
+    .footer {
+        .footer-top {
+            .footer-inner-bottom {
+                .information {
+                    justify-content: space-between;
+
+                    .info-footer {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+// End Footer
+
+
+}
+
+@media all and (max-width: 1055px) {
+// header banner
+    .header {
+        &-nav {
+            .header-inner {
+                justify-content: space-between;
+                .nav-bar {
+                    order: 3;
+
+                    .toggle {
+                        display: block;
+                        i {
+                            color: #fff;
+                        }
+                    }
+
+                    .nav-bar-item {
+                        position: fixed;
+                        top: 0;
+                        right: 0;
+                        z-index: 99;
+                        background-color: rgb(252, 252, 252);
+                        width: 40vw;
+                        height: 100vh;
+                        padding: 15px 0;
+                        z-index: 999;
+                        .tranform(translateX(110%));
+                        // .transit(all, .4s);
+
+                        .menu-title {
+                            display: block;
+                            cursor: pointer;
+                        }
+
+                        .exit-nav {
+                            display: block;
+                            position: absolute;
+                            color :#000;
+                            font-size: 30px;
+                            top: 2px;
+                            right: 10px;
+                            cursor: pointer;
+                            transition: all .3s ease;
+                        }
+                        
+                        .nav-list {
+                            display: block;
+                            line-height: 40px;
+                            margin: 0;
+                            padding: 0px 40px;
+                            
+                            a {
+                                color: #000;
+                                display: block;
+                                border-bottom: 1px solid #bbb;
+                            }
+                       }
+                   } 
+                   .active {
+                       .tranform(translateX(0));
+                   }
+                    .exit-nav.active {
+                        .tranform(translateX(100%));
+                    }
+                }
+                .nav-icon {
+                    order: 2;
+                }
+            }
+        }
+    }
+// End header banner
+
+}
+
+
+
+
+@media all and (max-width: 1024px) {
+// Banner
+    .banner {
+        .banner-content {
+            .title-big {
+                font-size: 60px;
+                text-align: center;
+                line-height: 120px;
+            }
+
+            .title-medium {
+                font-size: 40px;
+                text-align: center;
+                line-height: 90px;
+
+            }
+
+            .title-small {
+                p { 
+                    line-height: 30px;
+                    margin: auto;
+                    text-align: center;
+                    font-size: 14px;
+                }
+            }
+
+            .btn {     
+                max-width: 172px;
+                margin: auto;
+            }
+        }
+    }
+// End header banner
+    
+// Main content
+    .main-content {
+// Product
+        
+// End Product
+
+        hr {
+            margin-bottom: 30px;
+        }
+// Branching
+        .branch {   
+            padding: 40px 0px;   
+            .logo-branching {
+                justify-content: space-around;
+                div {
+                    .col(33.3333%);
+                    display: flex;
+                    justify-content: center;
+                    img {
+                        max-width: 100%;
+                        text-align: center;
+                    }           
+                }
+            }
+        }
+    }  
+// End Branching
+    
+// Footer 
+    .footer {
+        .footer-top {
+            .footer-inner-top {
+                .content-text {
+                    padding-left: 150px;
+                    padding-right: 150px;
+                    text-align: center;
+                    font-size: 14px;
+                }
+            }
+
+            .footer-inner-bottom {
+                .information {
+                    justify-content: space-between;
+                    .info-footer {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+// End Footer
+}
+
+@media all and (max-width: 869px) {
+    .main-content {
+        // Product
+        .product {
+            .tabs {
+                ul {
+                    // no content
+                }
+
+                .product-inner {
+                    .info-product {
+                        flex-wrap: wrap;
+                        
+                       .product-item {
+                            width: 270px;
+                       } 
+                    }
+                }
+            }
+        }
+    // End Product
+    }
+}
+
+@media all and (max-width: 839px) {
+    .main-content {
+        // Product
+        .product {
+            .tabs {
+                ul {
+                    // no content
+                }
+
+                .product-inner {
+                    .info-product {
+                        flex-wrap: wrap;
+                        
+                       .product-item {
+                            width: 320px;
+                       } 
+                    }
+                }
+            }
+        }
+    // End Product
+    }
+}
+
+
+
+@media all and (max-width: 811px) {
+    .main-content {
+        .category-product-inner {
+            .product-info {
+                box-shadow: 0px 0px 0px #FFF;
+                align-items: center;
+                justify-content: center;
+                .info-fitness {
+                    // no content
+                }
+                .info-fitness:last-child {
+                    flex-direction: column-reverse;
+                }
+            }
+        }
+    }
+   // End category product
+}
+
+@media all and (max-width: 768px) {
+// Header banner
+    .banner {
+        .banner-content {
+            .title-big {
+                font-size: 50px;
+                text-align: center;
+                line-height: 100px;
+            }
+
+            .title-medium {
+                font-size: 35px;
+                text-align: center;
+                line-height: 70px;
+
+            }
+
+            .title-small {
+                p { 
+                    line-height: 30px;
+                    margin: auto;
+                    text-align: center;
+                    font-size: 13px;
+                }
+            }
+
+            .btn {     
+                max-width: 172px;
+                margin: auto;
+            }
+        }
+    }
+// End Header
+
+// Main Content
+    .main-content {
+    
+        .product {
+            .tabs {
+                ul {
+                    // no content
+                }
+
+                .product-inner {
+                    .info-product {
+                        flex-wrap: wrap;
+                        
+                       .product-item {
+                            width: 300px;
+                       } 
+                    }
+                }
+            }
+        }
+// End Product
+
+
+        hr {
+            margin-bottom: 30px;
+        }
+    }  
+// End Main Content
+
+// Footer 
+    .footer {
+        .footer-top {
+            .footer-inner-top {
+                .content-text {
+                    padding-left: 80px;
+                    padding-right: 80px;
+                    text-align: center;
+                    font-size: 14px;
+                }
+            }
+
+            .footer-inner-bottom {
+                .information {
+                    justify-content: space-between;
+                    div {
+                        div {
+                            .contact-us {
+                                .icon-contact {
+                                    a {
+                                        i {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                                .info-contact {
+                                    line-height: 20px;
+                                    padding-top: 10px;
+                                    padding-bottom: 10px;
+                                }
+                            }
+                        }
+                    }
+
+                    .info-footer {
+                        margin: 0;
+                        div {
+                            a {
+                                line-height: 40px;
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+// End Footer
+
+}
+
+@media all and (max-width: 576px) {
+    // Header banner
+    .header {
+        &-nav {
+            .header-inner {
+                .nav-icon {
+                    position: relative;
+                    .arrow-down {
+                        display: block;
+                    }
+                    &-item {
+                        display: none;
+                        position: absolute;
+                        background-color: rgb(37, 37, 37);
+                        top: 77px;
+                        right: -53px;
+                        
+                        .list-icon {
+                            width: 40%;
+                            line-height: 30px;
+                            margin: 0;
+                            padding: 10px 50px;
+                        }
+                        span {
+                            border: none;
+                        }
+                    }
+                    .nav-icon-item.hidden {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    // End header banner
+
+    // Main-content 
+    .main-content {
+    // Category product
+        .category-product-inner{
+            .product-info {
+                justify-content: center;
+                .info-fitness {
+                    
+                    .img {
+                        img {
+                            max-width: 350px;
+                            height: 234px;
+                        }
+                    }
+                    .content-fitness {
+                        max-width: 350px;
+                        height: 234px;
+                    }
+                    
+                }
+            }
+        }
+    // End Category product
+    // Product
+    .product {
+        .tabs {
+            ul {
+                li {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    a {
+                        font-size: 15px;
+                    }
+                }
+            }
+            .product-inner {
+                .info-product {
+                    flex-wrap: wrap;
+                    
+                   .product-item {
+                        width: 270px;
+                   } 
+                }
+            }
+        }
+    }
+    // End Product
+    // slick slier
+        
+    // End slick slider
+        hr {
+            margin-bottom: 30px;
+        }
+    }
+
+
+// Footer 
+    .footer {
+        .footer-top {
+            .footer-inner-top {
+                .content-text {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    text-align: center;
+                    font-size: 13px;
+                }
+            }
+
+            .footer-inner-bottom {
+                .information {
+                    flex-direction: column;
+                    div {
+                        h3 {
+                            font-size: 15px;
+                            line-height: 24px;
+                            margin: 0;
+                        }
+                        div {
+                            display: flex;
+                            flex-wrap: wrap;
+
+                            .contact-us {
+                                padding: 10px;
+                                .icon-contact {
+                                    margin: 0;
+                                    a {
+                                        line-height: 14px;
+                                    }
+                                }
+                                .info-contact {
+                                    padding: 10px;
+                                    line-height: 14px;
+                                }
+                            }
+                        }
+                    }
+
+                    .info-footer {
+                        margin: 0;
+                        padding: 10px;
+                        div {
+                            display: flex;
+                            flex-wrap: wrap;
+                            div {
+                                a {
+                                    padding: 10px;
+                                    line-height: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-bottom {
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+// End Footer
+
+}
+
+
+@media all and (max-width: 376px) {
+    .main-content {
+    // Category product
+        .category-product-inner{
+            .product-info {
+                justify-content: center;
+                .info-fitness { 
+                    .img {
+                        img {
+                            max-width: 320px;
+                            height: 214px;
+                        }
+                    }
+                    .content-fitness {
+                        max-width: 320px;
+                        height: 214px;
+                        margin-bottom: 10px;
+                        p {
+                            font-size: 12px;
+                            line-height: 18px;
+                        }
+                    }       
+                }
+            }
+        }
+    // End category product
+
+    // Product
+        .product {
+            .tabs {
+                ul {
+                    li {
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+                .product-inner {
+                    justify-content: space-between;
+                    .info-product {
+
+                    }
+                }
+            }
+        }
+    // End product
+    
+    // Slider
+        .slider {
+            .see-content {
+                font-size: 26px;
+            }
+
+            .slider-inner {
+                .slider-item {
+                    .content-respond {
+                        p {
+                            font-size: 15px;
+                        }
+                        h3 {
+                           font-size: 16px; 
+                        }
+                    }
+                }
+            }
+        }
+        // End slider
+    }
+}
+

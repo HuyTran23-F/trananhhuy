@@ -1,0 +1,206 @@
+.header {
+    background-image: url(../../image/Banner_1.jpg);
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: 950px;
+    // width: 100%;  
+
+    // nav-bar top
+    &-nav {
+        background-color: #000;
+        opacity: 0.6;
+        .header-inner {
+            .flex();
+            padding-top: 23px;
+            padding-bottom: 17px;
+            .logo {
+                vertical-align: middle;
+            }
+            .nav-bar {
+                .toggle {
+                    display: none;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    cursor: pointer;
+                    transition: all .3s ease;
+
+                    i {
+                        transition: all .3s ease;
+                    }
+                    i:hover {
+                        color: rgb(96, 232, 250);
+                    }
+                }
+                .toggle:hover {
+                    color: rgb(96, 232, 250);
+                }
+
+                .nav-bar-item {
+                    .menu-title {
+                        display: none;
+                        color :#000;
+                        font-size: 20px;
+                        padding: 0px 40px;
+                        line-height: 50px;
+                    }
+
+                    .exit-nav {
+                        display: none;
+                    }
+                    .exit-nav:hover {
+                        color: rgb(107, 104, 104);
+                    }
+
+                    .nav-list {
+                        display: inline-block;
+                        margin-left: 16px;
+                        margin-right: 29px;
+                        a {
+                            color: #fff;
+                            font-size: 16px;
+                            letter-spacing: 0.35px;
+                            .transition();
+                        }
+
+                        a:hover {
+                            color: rgb(96, 232, 250);
+                        }
+                    }
+                }
+                
+            }
+            
+
+            .nav-icon {
+                .arrow-down {
+                    display: none;
+                    color: #fff;
+                    font-size: 40px;
+                    font-weight: 700;
+                }
+                &-item {
+                    .list-icon {
+                        display: inline-block;
+                        margin-left: 23px;
+                        margin-right: 25px;
+                        cursor: pointer;
+                        i {
+                            color: #fff;
+                            .transition();
+                        }
+
+                        i:hover {
+                            color: rgb(231, 119, 119);
+                        }
+                    }
+                    .list-icon:last-child {
+                        margin-right: 0;
+                    }
+                    span {
+                        border: 1px solid #777777;
+                        background-color: #777777;
+                    }
+                }
+            }
+        }
+    }
+    // end nav-bar top
+
+    // banner
+    .banner {
+        overflow: hidden;
+        &-content {
+            margin-left: 1px;
+            
+            .title-big {
+                color: #fff;
+                font-size: 60px;
+                font-weight: 700;
+                margin-top: 195px;
+                margin-left: -1px;
+                animation-name: moveToLeft;
+                animation-duration: 1.5s;
+                animation-delay: 0.5s;
+                animation-fill-mode: backwards;
+                
+            }
+            
+            .title-medium {
+                color: #fff;
+                font-size: 40px;
+                font-weight: 700;
+                margin-top: -10px;
+                margin-left: -1px;
+                animation-name: moveToLeft;
+                animation-duration: 1.5s;
+                animation-delay: 0.5s;
+                animation-fill-mode: backwards;
+                overflow: hidden;
+            }
+
+            .title-small {
+                p {
+                    max-width: 526px;
+                    font-weight: 400;
+                    color: #fff;
+                    line-height: 24px;
+                    font-size: 14px;
+                    margin-top: 20px;
+                    margin-left: -1px;
+                    animation-name: moveToLeft;
+                    animation-duration: 1.5s;
+                    animation-delay: 0.5s;
+                    animation-fill-mode: backwards;
+                    overflow: hidden;
+                }
+            }
+
+            .btn {
+                a {
+                    animation-fill-mode: backwards;
+                    color: #fff;
+                    border: 1px solid #fff;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    line-height: 24px;
+                    font-weight: 400;
+                    margin-top: 52px;
+                    padding: 14px 47px 13px 47px;
+                    display: inline-block;
+                    animation-name: moveToBottom;
+                    animation-duration: 2s;
+                    animation-delay: 1s;
+                    .transition();
+                    overflow: hidden;
+                    
+                }
+                a:hover {
+                    background-color: rgb(22, 199, 243);
+                    border: 1px solid transparent;
+                }
+            }
+
+            @keyframes moveToLeft {
+                0% {
+                    transform: translateX(60px);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+            
+            @keyframes moveToBottom {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    //end banner
+}

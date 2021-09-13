@@ -1,0 +1,246 @@
+.main-content {
+    // Category product
+    .category-product-inner {
+        .product-info {
+            display: flex;
+            flex-wrap: wrap;
+            transform: translateY(-75px);
+            box-shadow: 1px 4px 4px #929292;
+            .info-fitness {
+                .img {
+                    img {
+                        max-width: 390px;
+                        height: 250px;
+                    }
+                }
+                .content-fitness {
+                    width: 390px;
+                    height: 250px;
+                    text-align: center;
+                    background-color: #fff;
+
+                    div {
+                        img {
+                            padding-top: 27px;
+                        }
+                    }
+
+                    h2 {
+                        font-size: 18px;
+                        font-weight: 700;
+                        color: #000;
+                        text-transform: uppercase;
+                        margin-top: 17px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 24px;
+                        font-weight: 400;
+                        color: #000;
+                        padding-left: 51px;
+                        padding-right: 51px;
+                        margin-top: 16px;
+                    }
+                }
+            }
+        }
+    }
+    // End category product
+
+    // Product
+    .product {
+        margin-top: 20px;
+        margin-bottom: 45px;
+        .tabs {
+            ul {
+                display: flex;
+                li {
+                    display: inline-block;
+                    padding-left: 18.5px;
+                    padding-right: 16px;
+                    margin-top: -4px;
+                    a {
+                        font-size: 18px;
+                        line-height: 24px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        color: #000;
+                        
+                    }
+
+                    .btn-1 {
+                        color: #dd2f31;
+                    }
+                }
+                li:first-child {
+                    border-bottom: 2px solid #dd2f31;
+                    padding-bottom: 15px;
+                }
+            }
+            .product-inner {
+                // .tab-bar-product {
+                //     display: flex;
+                //     margin-top: 22px;
+    
+                //     div {
+                //         padding-left: 18px;
+                //         padding-right: 22px;
+                //         text-transform: uppercase;
+                //         font-size: 18px;
+                //         line-height: 24px;
+                //         font-weight: 400;
+                //         letter-spacing: 0.1px;
+                //         cursor: pointer;
+                //         .transition();
+                //     }
+                //     div:first-child {
+                //         color: #dd2f31;
+                //         border-bottom: 2px solid #dd2f31;
+                //         padding-bottom: 12px;
+                //     }
+                // } 
+    
+                .info-product {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                    .transition();
+                    .product-item {
+                        position: relative;
+                        width: 270px;
+                        height: 330px;
+                        margin-top: 16px;
+                        margin-bottom: 20px;
+                        transition: all .3s ease;
+                        .detail-item {
+                            .icon-item {
+                                display: none;
+                                position: absolute;
+                                right: 20px;
+                                top: 19px;
+                                cursor: pointer;
+                                .transition();
+                                div {
+                                    margin-bottom: 15px;
+                                    a {
+                                        display: block;
+                                        text-align: center;
+                                        line-height: 34px;
+                                        width: 34px;
+                                        height: 34px;
+                                        border: 1px solid #777777;
+                                        border-top-left-radius: 3px;
+                                        border-bottom-right-radius: 3px;
+                                        color: #777777;
+                                    }
+                                    a:hover {
+                                        color: #fff;
+                                        background-color: #dd2f31;
+                                    }
+                                }
+                            }
+                        }
+                        .content-item {
+                            h2 {
+                                font-size: 14px;
+                                line-height: 24px;
+                                font-weight: 400;
+                                padding-left: 30px;
+                                padding-right: 30px;
+                                margin-top: 20px;
+                                cursor: pointer;
+                                .transition();
+                            }
+                            h2:hover {
+                                color: rgb(231, 45, 45)
+                            }
+                            h3 {
+                                font-size: 14px;
+                                font-weight: 700;
+                                line-height: 24px;
+                                padding-left: 30px;
+                                padding-right: 30px;
+                            }
+                        }
+                    }
+                    .product-item:hover {
+                        box-shadow: 1px 1px 8px #ebebeb;
+                        .detail-item:hover .icon-item {
+                            display: block;
+                            transition: all .3s ease-in;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+
+    // Testormonial slick
+    .slider {
+        padding-top: 45px;
+        padding-bottom: 71px;
+        .see-content {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 30px;
+            text-align: center;
+            margin-top: 2px;
+        }
+        .slider-inner {
+            .slider-item {
+                .avatar {
+                    margin-top: 58px;
+                    display: flex;
+                    justify-content: center;
+                }
+                .content-respond {
+                    p {
+                        padding-top: 21px;
+                        font-size: 18px;
+                        line-height: 30px;
+                        max-width: 760px;
+                        margin: auto;
+                        text-align: center;
+                        color: #777777;
+                    }
+
+                    h3 {
+                        padding-top: 28px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        font-size: 18px;
+                        font-weight: 700;
+                    }
+
+                    h4 {
+                        padding-top: 1px;
+                        font-size: 14px;
+                        line-height: 30px;
+                        text-align: center;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+    // End Testormonial slick
+
+    // Branching
+    .branch {
+        margin-top: 45px;
+        .logo-branching {
+            display: flex;
+            justify-content: space-around;
+            height: 150px;
+            align-items: center;
+
+            div {
+                padding-left: 38px;
+                padding-right: 33px;
+           }
+        }
+    }
+    // End Branching
+}
